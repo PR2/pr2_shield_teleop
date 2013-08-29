@@ -1,4 +1,4 @@
-<package>
+<stack>
   <description brief="pr2_shield_teleop">
 
      pr2_shield_teleop
@@ -8,8 +8,7 @@
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/pr2_shield_teleop</url>
-  <depend package="pr2_teleop"/>
+  <depend stack="pr2_apps"/> <!-- pr2_teleop -->
 
-</package>
-
+</stack>
 
