@@ -1,0 +1,7 @@
+<launch>
+
+  <remap from="joy" to="shield/joy"/>
+
+  <include file="$(find pr2_teleop)/teleop_joystick.launch"/>
+
+</launch>

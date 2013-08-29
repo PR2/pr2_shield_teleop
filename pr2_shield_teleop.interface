@@ -1,0 +1,4 @@
+published_topics: 
+  /shield/joy: sensor_msgs/Joy
+subscribed_topics:
+  /camera/rgb/image_color/compressed_throttle: sensor_msgs/CompressedImage
