@@ -2,8 +2,8 @@
 Changelog for package pr2_shield_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.1 (2014-09-16)
+------------------
 * hydro-devel upgrade
 * 0.1.1
 * Merge branch 'master' into groovy-devel
