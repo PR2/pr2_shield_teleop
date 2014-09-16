@@ -1,6 +1,17 @@
-cmake_minimum_required(VERSION 2.4.6)
-include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
+cmake_minimum_required(VERSION 2.8.3)
+project(pr2_shield_teleop)
+find_package(catkin REQUIRED COMPONENTS pr2_teleop)
 
-rosbuild_init()
 
-rosbuild_make_distribution(0.1.1)
+catkin_package(
+    DEPENDS pr2_teleop
+    CATKIN_DEPENDS # TODO
+    INCLUDE_DIRS # TODO include
+    LIBRARIES # TODO
+)
+
+install(DIRECTORY launch/ DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+
+install(FILES pr2_shield_teleop.interface pr2_shield_teleop.png pr2_shield_teleop.app DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+
+
